@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def fetch_country_data():
     """
-    Busca dados dos países usando a API do Rest Countries.
+    Busca dados dos países pela API do Rest Countries.
     Tenta 3 vezes caso ocorra algum erro.
     """
     url = "https://restcountries.com/v3.1/all"
@@ -34,7 +34,9 @@ def process_country_data(raw_data):
     """
     processed_data = {}
     for country in raw_data:
+        # Pega o nome do país (campo "common")
         name = country.get("name", {}).get("common", "Desconhecido")
+        # Capital pode ser uma lista; pega o primeiro item se existir
         capital = country.get("capital", ["Desconhecida"])
         population = country.get("population", "N/A")
         region = country.get("region", "N/A")
@@ -55,26 +57,9 @@ def save_data(data, path="data/raw/dados_paises.json"):
         json.dump(data, f, ensure_ascii=False, indent=4)
     logger.info(f"Dados salvos em {path}")
 
-def validate_data(data):
-    """
-    Valida os dados dos países verificando se informações essenciais estão presentes.
-    Retorna uma lista com mensagens de erro, se houver.
-    """
-    erros = []
-    for pais, info in data.items():
-        if info.get("populacao", 0) < 0:
-            erros.append(f"{pais}: População negativa")
-        if not info.get("capital"):
-            erros.append(f"{pais}: Capital ausente")
-    if erros:
-        logger.error("Erros encontrados na validação: " + ", ".join(erros))
-    else:
-        logger.info("Validação concluída sem erros")
-    return erros
-
 if __name__ == "__main__":
     try:
-        logger.info("Iniciando processo de coleta de dados...")
+        logger.info("Iniciando coleta de dados...")
         raw_data = fetch_country_data()
         logger.info("Processando os dados...")
         data = process_country_data(raw_data)
@@ -83,11 +68,3 @@ if __name__ == "__main__":
         logger.info("Data Ingest concluído com sucesso!")
     except Exception as e:
         logger.error("Erro ao executar data ingest: " + str(e))
-
-from data_store import init_db, save_to_db
-
-conn = init_db()
-save_to_db(data, conn)
-logger.info("Dados salvos no banco de dados (data/geoloop.db)")
-conn.close()
-
