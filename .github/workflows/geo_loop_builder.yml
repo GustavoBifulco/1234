@@ -35,6 +35,6 @@ jobs:
         git config --global user.name "geo-loop-bot"
         git config --global user.email "geo@loop.ai"
         git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/GustavoBifulco/1234.git
-        git add LOG.txt RELATORIO_GERAL.txt
+        git add data/processed/LOG.txt data/processed/RELATORIO_GERAL.txt
         git commit -m "Atualização automática dos relatórios"
         git push origin HEAD
