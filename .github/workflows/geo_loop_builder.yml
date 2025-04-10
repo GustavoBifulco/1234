@@ -1,8 +1,8 @@
 name: GEOLOOP BUILDER
 
 on:
-  schedule:
-    - cron: "0 * * * *"  # Executa a cada hora
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
@@ -16,22 +16,19 @@ jobs:
     - name: Instalar Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.10"
+        python-version: '3.10'
 
     - name: Instalar dependências (se existirem)
       run: |
-        pip install -r requirements.txt || echo "Sem dependências adicionais"
+        pip install -r builder_ai/requirements.txt || true
 
     - name: Executar GEOLOOP AI
-      run: |
-        python geo_ai_executor.py
+      run: python builder_ai/geo_ai_executor.py
 
     - name: Commit automático das melhorias
       run: |
-        git config user.name "geoloop-ai"
-        git config user.email "geoloop@users.noreply.github.com"
+        git config --global user.name "Geoloop Builder"
+        git config --global user.email "geoloop@auto.ai"
         git add .
-        git commit -m "Auto melhoria via GEOLOOP AI"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git commit -m "GEOLOOP_BUILDER_AI: melhorias automáticas" || echo "Nada novo para commit"
+        git push || echo "Nada novo para enviar"
