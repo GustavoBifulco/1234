@@ -1,34 +1,34 @@
 name: GEOLOOP BUILDER
 
 on:
-  push:
-    branches: [ "main" ]
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-    - name: Clonar repositório
+    - name: Checkout do repositório
       uses: actions/checkout@v3
 
-    - name: Instalar Python
+    - name: Configurar Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
-
-    - name: Instalar dependências (se existirem)
-      run: |
-        pip install -r builder_ai/requirements.txt || true
+        python-version: 3.10
 
     - name: Executar GEOLOOP AI
       run: python builder_ai/geo_ai_executor.py
 
-    - name: Commit automático das melhorias
+    - name: Commit automático dos arquivos gerados
       run: |
-        git config --global user.name "Geoloop Builder"
-        git config --global user.email "geoloop@auto.ai"
-        git add .
-        git commit -m "GEOLOOP_BUILDER_AI: melhorias automáticas" || echo "Nada novo para commit"
-        git push || echo "Nada novo para enviar"
+        git config user.name "geo-loop-bot"
+        git config user.email "geo@loop.ai"
+        git add LOG.txt RELATORIO_GERAL.txt
+        git commit -m "Atualização automática dos relatórios GEOLOOP" || echo "Nada novo para commitar"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
