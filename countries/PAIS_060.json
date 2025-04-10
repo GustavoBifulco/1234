@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_060",
+    "regime": "República",
+    "presidente": "Líder 60",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1600000000,
+    "IDH": 0.590,
+    "populacao": 4000000,
+    "reputacao_global": 60,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_063",
+    "regime": "República",
+    "presidente": "Líder 63",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1630000000,
+    "IDH": 0.595,
+    "populacao": 4150000,
+    "reputacao_global": 63,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

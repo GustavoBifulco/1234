@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_084",
+    "regime": "República",
+    "presidente": "Líder 84",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1840000000,
+    "IDH": 0.626,
+    "populacao": 5200000,
+    "reputacao_global": 84,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

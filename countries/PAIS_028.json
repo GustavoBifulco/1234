@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_028",
+    "regime": "República",
+    "presidente": "Líder 28",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1280000000,
+    "IDH": 0.542,
+    "populacao": 2400000,
+    "reputacao_global": 78,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

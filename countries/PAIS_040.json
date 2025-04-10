@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_040",
+    "regime": "República",
+    "presidente": "Líder 40",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1400000000,
+    "IDH": 0.560,
+    "populacao": 3000000,
+    "reputacao_global": 90,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_009",
+    "regime": "República",
+    "presidente": "Líder 9",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1090000000,
+    "IDH": 0.513,
+    "populacao": 1450000,
+    "reputacao_global": 59,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

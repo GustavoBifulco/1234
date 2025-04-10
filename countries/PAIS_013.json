@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_013",
+    "regime": "República",
+    "presidente": "Líder 13",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1130000000,
+    "IDH": 0.519,
+    "populacao": 1650000,
+    "reputacao_global": 63,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

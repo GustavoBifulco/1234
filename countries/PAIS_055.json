@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_055",
+    "regime": "República",
+    "presidente": "Líder 55",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1550000000,
+    "IDH": 0.583,
+    "populacao": 3750000,
+    "reputacao_global": 55,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

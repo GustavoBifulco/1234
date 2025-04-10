@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_020",
+    "regime": "República",
+    "presidente": "Líder 20",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 1200000000,
+    "IDH": 0.530,
+    "populacao": 2000000,
+    "reputacao_global": 70,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}
