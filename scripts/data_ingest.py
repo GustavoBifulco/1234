@@ -85,3 +85,10 @@ if __name__ == "__main__":
         logger.info("Data Ingest concluído com sucesso!")
     except Exception as e:
         logger.error("Erro ao executar data ingest: " + str(e))
+
+from data_store import init_db, save_to_db
+
+conn = init_db()
+save_to_db(data, conn)
+logger.info("Dados também salvos no banco de dados (data/geoloop.db)")
+conn.close()
