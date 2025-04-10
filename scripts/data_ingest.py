@@ -5,7 +5,7 @@ import os
 
 def fetch_country_data():
     """
-    Buscar dados de países usando a API Rest Countries.
+    Busca dados de países usando a API do Rest Countries.
     """
     url = "https://restcountries.com/v3.1/all"
     response = requests.get(url)
@@ -15,8 +15,11 @@ def fetch_country_data():
 
 def process_country_data(raw_data):
     """
-    Processa os dados brutos para manter apenas os campos desejados.
-    Aqui extraímos o nome, capital, população e região para cada país.
+    Processa os dados brutos para manter apenas os campos desejados:
+      - Nome do país
+      - Capital (primeira, se existir)
+      - População
+      - Região (continente)
     """
     processed_data = {}
     for country in raw_data:
@@ -24,8 +27,7 @@ def process_country_data(raw_data):
         capital = country.get("capital", ["Desconhecida"])
         population = country.get("population", "N/A")
         region = country.get("region", "N/A")
-        
-        # Armazena os dados processados em um dicionário, usando o nome como chave.
+
         processed_data[name] = {
             "capital": capital[0] if isinstance(capital, list) and capital else "Desconhecida",
             "populacao": population,
@@ -36,7 +38,7 @@ def process_country_data(raw_data):
 def save_data(data, path="data/raw/dados_paises.json"):
     """
     Salva os dados processados no arquivo JSON.
-    Cria o diretório caso ele não exista.
+    Cria o diretório, se necessário.
     """
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
