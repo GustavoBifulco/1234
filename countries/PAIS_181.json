@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_181",
+    "regime": "República",
+    "presidente": "Líder 181",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 2810000000,
+    "IDH": 0.772,
+    "populacao": 10050000,
+    "reputacao_global": 81,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}

@@ -1,0 +1,14 @@
+{
+    "nome": "PAIS_166",
+    "regime": "República",
+    "presidente": "Líder 166",
+    "ministérios": ["Defesa", "Economia", "Saúde", "Educação"],
+    "partidos": ["Partido A", "Partido B"],
+    "leis": ["Lei 1", "Lei 2"],
+    "PIB": 2660000000,
+    "IDH": 0.749,
+    "populacao": 9300000,
+    "reputacao_global": 66,
+    "alertas_ativos": [],
+    "reacoes_automaticas": true
+}
