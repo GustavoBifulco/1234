@@ -1,3 +1,1236 @@
 RELATÓRIO_GERAL.txt
 
 Resumo estratégico por país...
+=== RELATÓRIO GERAL (execução: 2025-04-10 21:20:42) ===
+
+📌 Afeganistão — Capital: Cabul | Continente: Ásia
+   População: 40,1 milhões | PIB: 14,58 bilhões de USD | IDH: 0.478
+   Governo: Emirado islâmico
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Albânia — Capital: Tirana | Continente: Europa
+   População: 2,8 milhões | PIB: 18 bilhões de USD | IDH: 0.796
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Alemanha — Capital: Berlim | Continente: Europa
+   População: 83,2 milhões | PIB: 4,2 trilhões de USD | IDH: 0.942
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Andorra — Capital: Andorra-a-Velha | Continente: Europa
+   População: 77 mil | PIB: 3,15 bilhões de USD | IDH: 0.868
+   Governo: Principado parlamentar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Angola — Capital: Luanda | Continente: África
+   População: 36,7 milhões | PIB: 89 bilhões de USD | IDH: 0.586
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Arábia Saudita — Capital: Riade | Continente: Ásia
+   População: 36 milhões | PIB: 1,1 trilhão de USD | IDH: 0.875
+   Governo: Monarquia absoluta
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Argélia — Capital: Argel | Continente: África
+   População: 45 milhões | PIB: 206 bilhões de USD | IDH: 0.745
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Argentina — Capital: Buenos Aires | Continente: América do Sul
+   População: 46,2 milhões | PIB: 631 bilhões de USD | IDH: 0.849
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Armênia — Capital: Yerevan | Continente: Ásia
+   População: 2,8 milhões | PIB: 19 bilhões de USD | IDH: 0.759
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Austrália — Capital: Camberra | Continente: Oceania
+   População: 26,4 milhões | PIB: 1,7 trilhão de USD | IDH: 0.951
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Áustria — Capital: Viena | Continente: Europa
+   População: 9 milhões | PIB: 500 bilhões de USD | IDH: 0.916
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Azerbaijão — Capital: Baku | Continente: Ásia
+   População: 10,1 milhões | PIB: 79 bilhões de USD | IDH: 0.745
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Dinamarca — Capital: Copenhague | Continente: Europa
+   População: 5,9 milhões | PIB: 434 bilhões de USD | IDH: 0.940
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Djibuti — Capital: Djibuti | Continente: África
+   População: 1,1 milhão | PIB: 3,5 bilhões de USD | IDH: 0.549
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Dominica — Capital: Roseau | Continente: América Central
+   População: 72 mil | PIB: 612 milhões de USD | IDH: 0.742
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Egito — Capital: Cairo | Continente: África
+   População: 109 milhões | PIB: 387 bilhões de USD | IDH: 0.731
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 El Salvador — Capital: San Salvador | Continente: América Central
+   População: 6,3 milhões | PIB: 33 bilhões de USD | IDH: 0.667
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Emirados Árabes Unidos — Capital: Abu Dhabi | Continente: Ásia
+   População: 9,9 milhões | PIB: 501 bilhões de USD | IDH: 0.911
+   Governo: Monarquia federal
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Equador — Capital: Quito | Continente: América do Sul
+   População: 18 milhões | PIB: 115 bilhões de USD | IDH: 0.759
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Eritreia — Capital: Asmara | Continente: África
+   População: 3,7 milhões | PIB: 2,3 bilhões de USD | IDH: 0.501
+   Governo: Estado de partido único
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Eslováquia — Capital: Bratislava | Continente: Europa
+   População: 5,4 milhões | PIB: 132 bilhões de USD | IDH: 0.857
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Eslovênia — Capital: Liubliana | Continente: Europa
+   População: 2,1 milhões | PIB: 72 bilhões de USD | IDH: 0.918
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Espanha — Capital: Madri | Continente: Europa
+   População: 48,5 milhões | PIB: 1,6 trilhão de USD | IDH: 0.905
+   Governo: Monarquia parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Essuatíni — Capital: Mbabane (admin.), Lobamba (legisl.) | Continente: África
+   População: 1,2 milhão | PIB: 4,7 bilhões de USD | IDH: 0.611
+   Governo: Monarquia absoluta
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Estados Unidos — Capital: Washington, D.C. | Continente: América do Norte
+   População: 333 milhões | PIB: 26,9 trilhões de USD | IDH: 0.921
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Estônia — Capital: Tallinn | Continente: Europa
+   População: 1,3 milhão | PIB: 45 bilhões de USD | IDH: 0.894
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Etiópia — Capital: Adis Abeba | Continente: África
+   População: 126 milhões | PIB: 111 bilhões de USD | IDH: 0.498
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Fiji — Capital: Suva | Continente: Oceania
+   População: 918 mil | PIB: 5,4 bilhões de USD | IDH: 0.743
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Filipinas — Capital: Manila | Continente: Ásia
+   População: 113 milhões | PIB: 440 bilhões de USD | IDH: 0.699
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Finlândia — Capital: Helsinque | Continente: Europa
+   População: 5,5 milhões | PIB: 312 bilhões de USD | IDH: 0.940
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 França — Capital: Paris | Continente: Europa
+   População: 68 milhões | PIB: 3,1 trilhões de USD | IDH: 0.903
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Gabão — Capital: Libreville | Continente: África
+   População: 2,3 milhões | PIB: 22 bilhões de USD | IDH: 0.706
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Gana — Capital: Acra | Continente: África
+   População: 34 milhões | PIB: 77 bilhões de USD | IDH: 0.632
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Geórgia — Capital: Tbilisi | Continente: Ásia
+   População: 3,7 milhões | PIB: 25 bilhões de USD | IDH: 0.812
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Granada — Capital: Saint George's | Continente: América Central
+   População: 125 mil | PIB: 1,3 bilhões de USD | IDH: 0.779
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Grécia — Capital: Atenas | Continente: Europa
+   População: 10,3 milhões | PIB: 302 bilhões de USD | IDH: 0.887
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Guatemala — Capital: Cidade da Guatemala | Continente: América Central
+   População: 17,4 milhões | PIB: 95 bilhões de USD | IDH: 0.663
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Guiana — Capital: Georgetown | Continente: América do Sul
+   População: 804 mil | PIB: 16 bilhões de USD | IDH: 0.682
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Guiné — Capital: Conacri | Continente: África
+   População: 14 milhões | PIB: 24 bilhões de USD | IDH: 0.465
+   Governo: Transição militar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Guiné Equatorial — Capital: Malabo (em transição para Oyala) | Continente: África
+   População: 1,7 milhão | PIB: 11 bilhões de USD | IDH: 0.588
+   Governo: República presidencialista autoritária
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Guiné-Bissau — Capital: Bissau | Continente: África
+   População: 2 milhões | PIB: 1,7 bilhões de USD | IDH: 0.483
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Gâmbia — Capital: Banjul | Continente: África
+   População: 2,8 milhões | PIB: 2,1 bilhões de USD | IDH: 0.496
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Haiti — Capital: Porto Príncipe | Continente: América Central
+   População: 11,4 milhões | PIB: 21 bilhões de USD | IDH: 0.535
+   Governo: República em transição
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Honduras — Capital: Tegucigalpa | Continente: América Central
+   População: 10,3 milhões | PIB: 32 bilhões de USD | IDH: 0.634
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Hungria — Capital: Budapeste | Continente: Europa
+   População: 9,6 milhões | PIB: 202 bilhões de USD | IDH: 0.848
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Ilhas Marshall — Capital: Majuro | Continente: Oceania
+   População: 42 mil | PIB: 259 milhões de USD | IDH: 0.639
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Ilhas Salomão — Capital: Honiara | Continente: Oceania
+   População: 740 mil | PIB: 1,7 bilhões de USD | IDH: 0.567
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Indonésia — Capital: Jacarta | Continente: Ásia
+   População: 276 milhões | PIB: 1,4 trilhão de USD | IDH: 0.705
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Iraque — Capital: Bagdá | Continente: Ásia
+   População: 44,5 milhões | PIB: 267 bilhões de USD | IDH: 0.686
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Irlanda — Capital: Dublin | Continente: Europa
+   População: 5,1 milhões | PIB: 594 bilhões de USD | IDH: 0.945
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Irã — Capital: Teerã | Continente: Ásia
+   População: 89 milhões | PIB: 389 bilhões de USD | IDH: 0.774
+   Governo: República islâmica
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Islândia — Capital: Reykjavík | Continente: Europa
+   População: 375 mil | PIB: 29 bilhões de USD | IDH: 0.959
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Israel — Capital: Jerusalém | Continente: Ásia
+   População: 9,7 milhões | PIB: 522 bilhões de USD | IDH: 0.919
+   Governo: Democracia parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Itália — Capital: Roma | Continente: Europa
+   População: 58,9 milhões | PIB: 2,2 trilhões de USD | IDH: 0.895
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Iêmen — Capital: Sana (provisória: Áden) | Continente: Ásia
+   População: 34 milhões | PIB: 21 bilhões de USD | IDH: 0.455
+   Governo: República em guerra civil
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Jamaica — Capital: Kingston | Continente: América Central
+   População: 2,8 milhões | PIB: 16 bilhões de USD | IDH: 0.708
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Japão — Capital: Tóquio | Continente: Ásia
+   População: 124,7 milhões | PIB: 4,4 trilhões de USD | IDH: 0.925
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Jordânia — Capital: Amã | Continente: Ásia
+   População: 11,2 milhões | PIB: 51 bilhões de USD | IDH: 0.729
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Kuwait — Capital: Cidade do Kuwait | Continente: Ásia
+   População: 4,3 milhões | PIB: 135 bilhões de USD | IDH: 0.831
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Laos — Capital: Vientiane | Continente: Ásia
+   População: 7,7 milhões | PIB: 18 bilhões de USD | IDH: 0.607
+   Governo: República socialista de partido único
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Lesoto — Capital: Maseru | Continente: África
+   População: 2,3 milhões | PIB: 2,5 bilhões de USD | IDH: 0.514
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Letônia — Capital: Riga | Continente: Europa
+   População: 1,8 milhão | PIB: 45 bilhões de USD | IDH: 0.863
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Libéria — Capital: Monróvia | Continente: África
+   População: 5,3 milhões | PIB: 3,9 bilhões de USD | IDH: 0.480
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Liechtenstein — Capital: Vaduz | Continente: Europa
+   População: 39 mil | PIB: 7,7 bilhões de USD | IDH: 0.951
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Lituânia — Capital: Vilnius | Continente: Europa
+   População: 2,8 milhões | PIB: 80 bilhões de USD | IDH: 0.890
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Luxemburgo — Capital: Cidade do Luxemburgo | Continente: Europa
+   População: 660 mil | PIB: 89 bilhões de USD | IDH: 0.930
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Líbano — Capital: Beirute | Continente: Ásia
+   População: 5,5 milhões | PIB: 24 bilhões de USD | IDH: 0.706
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Líbia — Capital: Trípoli | Continente: África
+   População: 6,9 milhões | PIB: 48 bilhões de USD | IDH: 0.703
+   Governo: Transição/Conflito civil
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Macedônia do Norte — Capital: Escópia | Continente: Europa
+   População: 2,1 milhões | PIB: 14 bilhões de USD | IDH: 0.801
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Madagáscar — Capital: Antananarivo | Continente: África
+   População: 30,3 milhões | PIB: 15 bilhões de USD | IDH: 0.501
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Malawi — Capital: Lilongwe | Continente: África
+   População: 21 milhões | PIB: 12 bilhões de USD | IDH: 0.512
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Maldivas — Capital: Malé | Continente: Ásia
+   População: 521 mil | PIB: 5,9 bilhões de USD | IDH: 0.747
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Mali — Capital: Bamaco | Continente: África
+   População: 22,5 milhões | PIB: 19 bilhões de USD | IDH: 0.428
+   Governo: Transição militar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Malta — Capital: Valeta | Continente: Europa
+   População: 519 mil | PIB: 20 bilhões de USD | IDH: 0.895
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Malásia — Capital: Kuala Lumpur (admin. em Putrajaya) | Continente: Ásia
+   População: 33,6 milhões | PIB: 434 bilhões de USD | IDH: 0.804
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Marrocos — Capital: Rabat | Continente: África
+   População: 37 milhões | PIB: 140 bilhões de USD | IDH: 0.683
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Mauritânia — Capital: Nouakchott | Continente: África
+   População: 4,9 milhões | PIB: 10 bilhões de USD | IDH: 0.546
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Maurício — Capital: Port Louis | Continente: África
+   População: 1,3 milhão | PIB: 13 bilhões de USD | IDH: 0.802
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Mianmar — Capital: Naypyidaw | Continente: Ásia
+   População: 55,2 milhões | PIB: 59 bilhões de USD | IDH: 0.583
+   Governo: Governo militar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Micronésia — Capital: Palikir | Continente: Oceania
+   População: 115 mil | PIB: 422 milhões de USD | IDH: 0.621
+   Governo: República federal
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Moldávia — Capital: Chisinau | Continente: Europa
+   População: 2,5 milhões | PIB: 17 bilhões de USD | IDH: 0.767
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Mongólia — Capital: Ulan Bator | Continente: Ásia
+   População: 3,4 milhões | PIB: 17 bilhões de USD | IDH: 0.739
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Montenegro — Capital: Podgorica | Continente: Europa
+   População: 619 mil | PIB: 7,5 bilhões de USD | IDH: 0.832
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Moçambique — Capital: Maputo | Continente: África
+   População: 33,9 milhões | PIB: 21 bilhões de USD | IDH: 0.456
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 México — Capital: Cidade do México | Continente: América do Norte
+   População: 129 milhões | PIB: 1,6 trilhão de USD | IDH: 0.758
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Mônaco — Capital: Mônaco | Continente: Europa
+   População: 39 mil | PIB: 8 bilhões de USD | IDH: 0.961
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Namíbia — Capital: Windhoek | Continente: África
+   População: 2,7 milhões | PIB: 13 bilhões de USD | IDH: 0.615
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Nauru — Capital: Yaren (distrito) | Continente: Oceania
+   População: 10 mil | PIB: 133 milhões de USD | IDH: 0.715
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Nepal — Capital: Catmandu | Continente: Ásia
+   População: 30,5 milhões | PIB: 40 bilhões de USD | IDH: 0.602
+   Governo: República federal parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Nicarágua — Capital: Manágua | Continente: América Central
+   População: 6,9 milhões | PIB: 14 bilhões de USD | IDH: 0.660
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Nigéria — Capital: Abuja | Continente: África
+   População: 223 milhões | PIB: 477 bilhões de USD | IDH: 0.535
+   Governo: República federal presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Noruega — Capital: Oslo | Continente: Europa
+   População: 5,5 milhões | PIB: 579 bilhões de USD | IDH: 0.961
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Nova Zelândia — Capital: Wellington | Continente: Oceania
+   População: 5,1 milhões | PIB: 253 bilhões de USD | IDH: 0.937
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Níger — Capital: Niamey | Continente: África
+   População: 26 milhões | PIB: 14 bilhões de USD | IDH: 0.400
+   Governo: Governo militar de transição
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Omã — Capital: Mascate | Continente: Ásia
+   População: 4,6 milhões | PIB: 115 bilhões de USD | IDH: 0.816
+   Governo: Monarquia absoluta
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Palau — Capital: Ngerulmud | Continente: Oceania
+   População: 18 mil | PIB: 211 milhões de USD | IDH: 0.826
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Panamá — Capital: Cidade do Panamá | Continente: América Central
+   População: 4,5 milhões | PIB: 76 bilhões de USD | IDH: 0.815
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Papua-Nova Guiné — Capital: Port Moresby | Continente: Oceania
+   População: 10,3 milhões | PIB: 30 bilhões de USD | IDH: 0.617
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Paquistão — Capital: Islamabad | Continente: Ásia
+   População: 240 milhões | PIB: 376 bilhões de USD | IDH: 0.544
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Paraguai — Capital: Assunção | Continente: América do Sul
+   População: 7,5 milhões | PIB: 44 bilhões de USD | IDH: 0.728
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Países Baixos — Capital: Amsterdã (Haia - sede do governo) | Continente: Europa
+   População: 17,6 milhões | PIB: 1,0 trilhão de USD | IDH: 0.941
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Peru — Capital: Lima | Continente: América do Sul
+   População: 34,5 milhões | PIB: 268 bilhões de USD | IDH: 0.762
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Polônia — Capital: Varsóvia | Continente: Europa
+   População: 37,7 milhões | PIB: 842 bilhões de USD | IDH: 0.881
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Portugal — Capital: Lisboa | Continente: Europa
+   População: 10,2 milhões | PIB: 296 bilhões de USD | IDH: 0.866
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Quirguistão — Capital: Bishkek | Continente: Ásia
+   População: 7 milhões | PIB: 10 bilhões de USD | IDH: 0.692
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Quiribati — Capital: Tarawa do Sul | Continente: Oceania
+   População: 131 mil | PIB: 211 milhões de USD | IDH: 0.624
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Quênia — Capital: Nairóbi | Continente: África
+   População: 54 milhões | PIB: 113 bilhões de USD | IDH: 0.575
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Reino Unido — Capital: Londres | Continente: Europa
+   População: 67,5 milhões | PIB: 3,4 trilhões de USD | IDH: 0.929
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 República Centro-Africana — Capital: Bangui | Continente: África
+   População: 5,5 milhões | PIB: 2,5 bilhões de USD | IDH: 0.397
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 República Democrática do Congo — Capital: Kinshasa | Continente: África
+   População: 102 milhões | PIB: 64 bilhões de USD | IDH: 0.479
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 República Dominicana — Capital: Santo Domingo | Continente: América Central
+   População: 11,2 milhões | PIB: 113 bilhões de USD | IDH: 0.767
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 República do Congo — Capital: Brazzaville | Continente: África
+   População: 6 milhões | PIB: 14 bilhões de USD | IDH: 0.571
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Romênia — Capital: Bucareste | Continente: Europa
+   População: 19,8 milhões | PIB: 344 bilhões de USD | IDH: 0.821
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Ruanda — Capital: Kigali | Continente: África
+   População: 13,5 milhões | PIB: 13 bilhões de USD | IDH: 0.534
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Rússia — Capital: Moscou | Continente: Europa e Ásia
+   População: 144 milhões | PIB: 1,9 trilhão de USD | IDH: 0.822
+   Governo: República federal semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Samoa — Capital: Apia | Continente: Oceania
+   População: 225 mil | PIB: 857 milhões de USD | IDH: 0.726
+   Governo: Democracia parlamentar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 San Marino — Capital: San Marino | Continente: Europa
+   População: 34 mil | PIB: 1,8 bilhões de USD | IDH: 0.858
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Santa Lúcia — Capital: Castries | Continente: América Central
+   População: 184 mil | PIB: 2,1 bilhões de USD | IDH: 0.745
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Seicheles — Capital: Victoria | Continente: África
+   População: 107 mil | PIB: 2,1 bilhões de USD | IDH: 0.796
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Senegal — Capital: Dacar | Continente: África
+   População: 18,1 milhões | PIB: 31 bilhões de USD | IDH: 0.522
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Serra Leoa — Capital: Freetown | Continente: África
+   População: 8,9 milhões | PIB: 4,5 bilhões de USD | IDH: 0.477
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Singapura — Capital: Singapura | Continente: Ásia
+   População: 5,9 milhões | PIB: 514 bilhões de USD | IDH: 0.939
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Somália — Capital: Mogadíscio | Continente: África
+   População: 17,1 milhões | PIB: 8,1 bilhões de USD | IDH: 0.434
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Sri Lanka — Capital: Sri Jayawardenepura Kotte (administrativa), Colombo (comercial) | Continente: Ásia
+   População: 21,9 milhões | PIB: 74 bilhões de USD | IDH: 0.782
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Sudão — Capital: Cartum | Continente: África
+   População: 48,1 milhões | PIB: 34 bilhões de USD | IDH: 0.510
+   Governo: Transição militar
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Sudão do Sul — Capital: Juba | Continente: África
+   População: 11,1 milhões | PIB: 13 bilhões de USD | IDH: 0.385
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Suriname — Capital: Paramaribo | Continente: América do Sul
+   População: 623 mil | PIB: 5,8 bilhões de USD | IDH: 0.730
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Suécia — Capital: Estocolmo | Continente: Europa
+   População: 10,5 milhões | PIB: 627 bilhões de USD | IDH: 0.947
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Suíça — Capital: Berna | Continente: Europa
+   População: 8,9 milhões | PIB: 807 bilhões de USD | IDH: 0.962
+   Governo: República federal
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 São Cristóvão e Nevis — Capital: Basseterre | Continente: América Central
+   População: 47 mil | PIB: 1,2 bilhões de USD | IDH: 0.779
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 São Tomé e Príncipe — Capital: São Tomé | Continente: África
+   População: 223 mil | PIB: 559 milhões de USD | IDH: 0.618
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 São Vicente e Granadinas — Capital: Kingstown | Continente: América Central
+   População: 111 mil | PIB: 890 milhões de USD | IDH: 0.738
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Sérvia — Capital: Belgrado | Continente: Europa
+   População: 6,6 milhões | PIB: 80 bilhões de USD | IDH: 0.802
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Síria — Capital: Damasco | Continente: Ásia
+   População: 22,5 milhões | PIB: 60 bilhões de USD (estimado) | IDH: 0.577
+   Governo: República autoritária
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tailândia — Capital: Bangcoc | Continente: Ásia
+   População: 71,6 milhões | PIB: 543 bilhões de USD | IDH: 0.800
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tajiquistão — Capital: Duchambe | Continente: Ásia
+   População: 10,2 milhões | PIB: 11 bilhões de USD | IDH: 0.685
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tanzânia — Capital: Dodoma | Continente: África
+   População: 67,4 milhões | PIB: 85 bilhões de USD | IDH: 0.549
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Timor-Leste — Capital: Díli | Continente: Ásia
+   População: 1,3 milhão | PIB: 2,1 bilhões de USD | IDH: 0.606
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Togo — Capital: Lomé | Continente: África
+   População: 8,9 milhões | PIB: 8,5 bilhões de USD | IDH: 0.539
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tonga — Capital: Nucualofa | Continente: Oceania
+   População: 106 mil | PIB: 545 milhões de USD | IDH: 0.725
+   Governo: Monarquia constitucional
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Trindade e Tobago — Capital: Port of Spain | Continente: América Central
+   População: 1,5 milhão | PIB: 30 bilhões de USD | IDH: 0.810
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tunísia — Capital: Túnis | Continente: África
+   População: 12,3 milhões | PIB: 46 bilhões de USD | IDH: 0.731
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Turcomenistão — Capital: Asgabate | Continente: Ásia
+   População: 6,4 milhões | PIB: 67 bilhões de USD | IDH: 0.745
+   Governo: República autoritária
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Turquia — Capital: Ancara | Continente: Ásia e Europa
+   População: 85,3 milhões | PIB: 1,03 trilhão de USD | IDH: 0.838
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Tuvalu — Capital: Funafuti | Continente: Oceania
+   População: 11 mil | PIB: 64 milhões de USD | IDH: 0.715
+   Governo: Monarquia constitucional parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Ucrânia — Capital: Kiev | Continente: Europa
+   População: 36,7 milhões | PIB: 161 bilhões de USD | IDH: 0.773
+   Governo: República semipresidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Uganda — Capital: Kampala | Continente: África
+   População: 48 milhões | PIB: 50 bilhões de USD | IDH: 0.544
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Uruguai — Capital: Montevidéu | Continente: América do Sul
+   População: 3,4 milhões | PIB: 83 bilhões de USD | IDH: 0.809
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Uzbequistão — Capital: Tashkent | Continente: Ásia
+   População: 36,8 milhões | PIB: 80 bilhões de USD | IDH: 0.720
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Vanuatu — Capital: Port Vila | Continente: Oceania
+   População: 319 mil | PIB: 1,1 bilhões de USD | IDH: 0.603
+   Governo: República parlamentarista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Vaticano — Capital: Cidade do Vaticano | Continente: Europa
+   População: 800 | PIB: n/a | IDH: n/a
+   Governo: Monarquia eclesiástica absoluta
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Venezuela — Capital: Caracas | Continente: América do Sul
+   População: 28,3 milhões | PIB: 111 bilhões de USD | IDH: 0.691
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Vietnã — Capital: Desconhecida | Continente: Ásia
+   População: N/A | PIB: N/A | IDH: 0.703
+   Governo: República socialista unipartidária
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
+
+📌 Zimbábue — Capital: Harare | Continente: África
+   População: 16,6 milhões | PIB: 29 bilhões de USD | IDH: 0.593
+   Governo: República presidencialista
+   ➤ Recomendações:
+     • Fortalecer relações diplomáticas regionais
+     • Investir em infraestrutura e IDH
+     • Promover estabilidade política
