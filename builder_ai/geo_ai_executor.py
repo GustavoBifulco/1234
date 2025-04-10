@@ -2,65 +2,50 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
+import subprocess
 
-# Caminho da pasta de países
-pasta_paises = Path("countries")
-pasta_paises.mkdir(parents=True, exist_ok=True)
+# Caminhos
+json_path = "dados_paises.json"
+log_path = "LOG.txt"
+relatorio_path = "RELATORIO_GERAL.txt"
 
-# Lista de países da ONU simplificada (exemplo com 10, pode expandir para 193)
-paises = [
-    {"nome": "Brasil", "regime": "Presidencialismo", "presidente": "Luiz Inácio Lula da Silva", "pib": "2.1 tri USD", "idh": 0.765, "populacao": "215 milhões"},
-    {"nome": "Estados Unidos", "regime": "Presidencialismo", "presidente": "Joe Biden", "pib": "25 tri USD", "idh": 0.921, "populacao": "332 milhões"},
-    {"nome": "China", "regime": "Partido Único", "presidente": "Xi Jinping", "pib": "17.7 tri USD", "idh": 0.768, "populacao": "1.4 bilhões"},
-    {"nome": "Rússia", "regime": "Presidencialismo Autoritário", "presidente": "Vladimir Putin", "pib": "1.7 tri USD", "idh": 0.822, "populacao": "144 milhões"},
-    {"nome": "Índia", "regime": "Parlamentarismo", "presidente": "Droupadi Murmu", "pib": "3.7 tri USD", "idh": 0.633, "populacao": "1.42 bilhões"},
-    {"nome": "França", "regime": "Semipresidencialismo", "presidente": "Emmanuel Macron", "pib": "3.2 tri USD", "idh": 0.903, "populacao": "67 milhões"},
-    {"nome": "Japão", "regime": "Monarquia Parlamentarista", "presidente": "Fumio Kishida", "pib": "4.9 tri USD", "idh": 0.925, "populacao": "125 milhões"},
-    {"nome": "Alemanha", "regime": "Parlamentarismo", "presidente": "Frank-Walter Steinmeier", "pib": "4.2 tri USD", "idh": 0.942, "populacao": "83 milhões"},
-    {"nome": "Nigéria", "regime": "República Federal", "presidente": "Bola Ahmed Tinubu", "pib": "0.5 tri USD", "idh": 0.539, "populacao": "213 milhões"},
-    {"nome": "Canadá", "regime": "Monarquia Parlamentarista", "presidente": "Justin Trudeau", "pib": "2.2 tri USD", "idh": 0.929, "populacao": "38 milhões"}
-]
+# Garantir que o arquivo exista
+if not os.path.exists(json_path):
+    raise FileNotFoundError("dados_paises.json não encontrado.")
 
-# Gerar arquivos JSON
-for pais in paises:
-    nome_arquivo = pais["nome"].lower().replace(" ", "_") + ".json"
-    caminho = pasta_paises / nome_arquivo
+# Carregar dados
+with open(json_path, "r", encoding="utf-8") as f:
+    dados_paises = json.load(f)
 
-    dados = {
-        "nome": pais["nome"],
-        "data_ultima_atualizacao": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "governo": {
-            "sistema": pais["regime"],
-            "presidente": pais["presidente"],
-            "partidos": [],
-            "proxima_eleicao": "Desconhecida"
-        },
-        "ministerios": [
-            "Ministério da Defesa", "Ministério da Economia",
-            "Ministério da Saúde", "Ministério da Educação"
-        ],
-        "leis_em_vigor": [
-            "Lei de Orçamento Anual", "Lei de Segurança Nacional"
-        ],
-        "resumo_estrategico": f"{pais['nome']} deve revisar suas estratégias regionais e econômicas.",
-        "indicadores": {
-            "PIB": pais["pib"],
-            "populacao": pais["populacao"],
-            "IDH": pais["idh"]
-        },
-        "acoes_sugeridas": [
-            "Fortalecer relações internacionais",
-            "Reduzir desigualdade interna",
-            "Aumentar investimentos em infraestrutura"
-        ],
-        "influencia_global": {
-            "reputacao": 50,
-            "aliados": [],
-            "riscos": []
-        }
-    }
+data_execucao = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    with open(caminho, "w", encoding="utf-8") as f:
-        json.dump(dados, f, ensure_ascii=False, indent=4)
+# Atualizar LOG e RELATÓRIO
+with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", encoding="utf-8") as rel:
+    log.write(f"[{data_execucao}] IA analisou dados de {len(dados_paises)} países a partir do JSON único.\n")
+    rel.write(f"\n=== RELATÓRIO GERAL - EXECUÇÃO {data_execucao} ===\n")
 
-print("Arquivos de países gerados com sucesso.")
+    for nome, dados in dados_paises.items():
+        capital = dados.get("capital", "Desconhecida")
+        sistema = dados.get("governo", "Desconhecido")
+        populacao = dados.get("populacao", "N/A")
+        hdi = dados.get("hdi", "N/A")
+        continente = dados.get("continente", "Desconhecido")
+        area = dados.get("area", "Desconhecida")
+
+        rel.write(f"\n📌 País: {nome} | Capital: {capital} | Continente: {continente} | Área: {area}\n")
+        rel.write(f"- Sistema de Governo: {sistema}\n")
+        rel.write(f"- População estimada: {populacao}\n")
+        rel.write(f"- IDH: {hdi}\n")
+        rel.write(f"- Ações Sugeridas:\n")
+        rel.write("  • Fortalecer educação básica\n")
+        rel.write("  • Ampliar infraestrutura nacional\n")
+        rel.write("  • Reforçar laços diplomáticos regionais\n")
+
+# Git commit e push automáticos
+subprocess.run("git config user.name 'geoloop-bot'", shell=True)
+subprocess.run("git config user.email 'geo@loop.ai'", shell=True)
+subprocess.run("git add LOG.txt RELATORIO_GERAL.txt", shell=True)
+subprocess.run("git commit -m 'Atualização automática dos relatórios GEOLOOP'", shell=True)
+subprocess.run("git push", shell=True)
+
+print("Processo concluído com sucesso.")
