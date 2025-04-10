@@ -14,19 +14,26 @@ jobs:
     - name: Configurar Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.10
+        python-version: '3.10'
+
+    - name: Verificar versão Python e listar pacotes
+      run: |
+        python --version
+        pip list
 
     - name: Instalar dependências
       run: |
-        pip install -r builder_ai/requirements.txt
+        pip install --no-cache-dir -r builder_ai/requirements.txt
 
     - name: Executar GEOLOOP AI
       run: python builder_ai/geo_ai_executor.py
 
     - name: Commit automático dos arquivos gerados
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config user.name "geo-loop-bot"
-        git config user.email "geo@loop.ai"
+        git config --global user.name "geo-loop-bot"
+        git config --global user.email "geo@loop.ai"
         git add LOG.txt RELATORIO_GERAL.txt
         git commit -m "Atualização automática dos relatórios"
-        git push
+        git push origin HEAD
