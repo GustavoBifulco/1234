@@ -25,6 +25,9 @@ jobs:
       run: |
         pip install --no-cache-dir -r builder_ai/requirements.txt
 
+    - name: Coletar Dados Atualizados
+      run: python scripts/data_ingest.py
+
     - name: Executar GEOLOOP AI
       run: python simulation/geo_ai_executor.py
 
