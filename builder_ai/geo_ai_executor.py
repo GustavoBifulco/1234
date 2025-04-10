@@ -2,41 +2,39 @@ import os
 import json
 from datetime import datetime
 
-# Caminhos
+# Caminhos de arquivos
 json_path = "dados_paises.json"
 log_path = "LOG.txt"
 relatorio_path = "RELATORIO_GERAL.txt"
 
-# Validar existência
+# Verifica se o JSON existe
 if not os.path.exists(json_path):
-    raise FileNotFoundError("dados_paises.json não encontrado.")
+    raise FileNotFoundError("Arquivo dados_paises.json não encontrado.")
 
-# Carregar dados
+# Carrega os dados
 with open(json_path, "r", encoding="utf-8") as f:
-    dados_paises = json.load(f)
+    dados = json.load(f)
 
-data_execucao = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+# Marca de tempo
+agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# Gerar LOG e RELATÓRIO
+# Abre arquivos de saída
 with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", encoding="utf-8") as rel:
-    log.write(f"[{data_execucao}] IA analisou dados de {len(dados_paises)} países a partir do JSON único.\n")
-    rel.write(f"\n=== RELATÓRIO GERAL - EXECUÇÃO {data_execucao} ===\n")
+    log.write(f"[{agora}] GEOLOOP IA processou {len(dados)} países a partir de dados_paises.json\n")
+    rel.write(f"\n=== RELATÓRIO GERAL (execução: {agora}) ===\n")
 
-    for nome, dados in dados_paises.items():
-        capital = dados.get("capital", "Desconhecida")
-        sistema = dados.get("governo", "Desconhecido")
-        populacao = dados.get("populacao", "N/A")
-        hdi = dados.get("hdi", "N/A")
-        continente = dados.get("continente", "Desconhecido")
-        area = dados.get("area", "Desconhecida")
+    for nome, pais in dados.items():
+        capital = pais.get("capital", "N/A")
+        populacao = pais.get("populacao", "N/A")
+        pib = pais.get("pib", "N/A")
+        governo = pais.get("governo", "N/A")
+        continente = pais.get("continente", "N/A")
+        hdi = pais.get("hdi", "N/A")
 
-        rel.write(f"\n📌 País: {nome} | Capital: {capital} | Continente: {continente} | Área: {area}\n")
-        rel.write(f"- Sistema de Governo: {sistema}\n")
-        rel.write(f"- População estimada: {populacao}\n")
-        rel.write(f"- IDH: {hdi}\n")
-        rel.write(f"- Ações Sugeridas:\n")
-        rel.write("  • Fortalecer educação básica\n")
-        rel.write("  • Ampliar infraestrutura nacional\n")
-        rel.write("  • Reforçar laços diplomáticos regionais\n")
-
-print("Relatórios gerados com sucesso.")
+        rel.write(f"\n📌 {nome} — Capital: {capital} | Continente: {continente}\n")
+        rel.write(f"   População: {populacao} | PIB: {pib} | IDH: {hdi}\n")
+        rel.write(f"   Governo: {governo}\n")
+        rel.write(f"   ➤ Recomendações:\n")
+        rel.write(f"     • Fortalecer relações diplomáticas regionais\n")
+        rel.write(f"     • Investir em infraestrutura e IDH\n")
+        rel.write(f"     • Promover estabilidade política\n")
