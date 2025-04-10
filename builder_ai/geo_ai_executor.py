@@ -24,7 +24,7 @@ with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", enc
     rel.write(f"\n=== RELATÓRIO GERAL (execução: {agora}) ===\n")
 
     for nome, pais in dados.items():
-        capital = pais.get("capital", "N/A")
+        capital = pais.get("capital", "Desconhecida")
         populacao = pais.get("populacao", "N/A")
         pib = pais.get("pib", "N/A")
         governo = pais.get("governo", "N/A")
@@ -35,6 +35,6 @@ with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", enc
         rel.write(f"   População: {populacao} | PIB: {pib} | IDH: {hdi}\n")
         rel.write(f"   Governo: {governo}\n")
         rel.write(f"   ➤ Recomendações:\n")
-        rel.write(f"     • Fortalecer relações diplomáticas regionais\n")
-        rel.write(f"     • Investir em infraestrutura e IDH\n")
-        rel.write(f"     • Promover estabilidade política\n")
+        rel.write("     • Fortalecer relações diplomáticas regionais\n")
+        rel.write("     • Investir em infraestrutura e IDH\n")
+        rel.write("     • Promover estabilidade política\n")
