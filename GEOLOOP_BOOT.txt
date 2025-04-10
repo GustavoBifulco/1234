@@ -1,0 +1,4 @@
+[BUILDER_AI]
+[PROXIMA_ACAO]
+época_atual = 13
+melhoria = sistema de guerra
