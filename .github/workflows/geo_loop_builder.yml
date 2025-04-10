@@ -1,51 +1,32 @@
-import os
-import json
-from datetime import datetime
+name: GEOLOOP BUILDER
 
-# Diretório com os dados dos países
-PAISES_DIR = "countries"
+on:
+  workflow_dispatch:
 
-# Arquivos de saída
-LOG_FILE = "LOG.txt"
-RELATORIO_FILE = "RELATORIO_GERAL.txt"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-def carregar_paises():
-    paises = []
-    for filename in os.listdir(PAISES_DIR):
-        if filename.endswith(".json"):
-            path = os.path.join(PAISES_DIR, filename)
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    dados = json.load(f)
-                    paises.append(dados)
-            except Exception as e:
-                print(f"Erro ao ler {filename}: {e}")
-    return paises
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
 
-def gerar_relatorio(paises):
-    relatorio = []
-    for pais in paises:
-        nome = pais.get("nome", "N/A")
-        populacao = pais.get("populacao", "N/A")
-        pib = pais.get("pib", "N/A")
-        regime = pais.get("regime_governo", "N/A")
-        relatorio.append(f"{nome} | População: {populacao} | PIB: {pib} | Regime: {regime}")
-    return "\n".join(relatorio)
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.10
 
-def salvar_arquivo(caminho, conteudo):
-    with open(caminho, "w", encoding="utf-8") as f:
-        f.write(conteudo)
+    - name: Instalar dependências
+      run: |
+        pip install -r builder_ai/requirements.txt
 
-def main():
-    paises = carregar_paises()
-    if not paises:
-        print("Nenhum país carregado.")
-        return
+    - name: Executar GEOLOOP AI
+      run: python builder_ai/geo_ai_executor.py
 
-    print(f"{len(paises)} países processados.")
-
-    salvar_arquivo(LOG_FILE, f"[{datetime.now()}] GEOLOOP BUILDER executado com sucesso.\nTotal de países: {len(paises)}")
-    salvar_arquivo(RELATORIO_FILE, gerar_relatorio(paises))
-
-if __name__ == "__main__":
-    main()
+    - name: Commit automático dos arquivos gerados
+      run: |
+        git config user.name "geo-loop-bot"
+        git config user.email "geo@loop.ai"
+        git add LOG.txt RELATORIO_GERAL.txt
+        git commit -m "Atualização automática dos relatórios"
+        git push
