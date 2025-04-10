@@ -1,15 +1,13 @@
 import os
 import json
 from datetime import datetime
-from pathlib import Path
-import subprocess
 
 # Caminhos
 json_path = "dados_paises.json"
 log_path = "LOG.txt"
 relatorio_path = "RELATORIO_GERAL.txt"
 
-# Garantir que o arquivo exista
+# Validar existência
 if not os.path.exists(json_path):
     raise FileNotFoundError("dados_paises.json não encontrado.")
 
@@ -19,7 +17,7 @@ with open(json_path, "r", encoding="utf-8") as f:
 
 data_execucao = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# Atualizar LOG e RELATÓRIO
+# Gerar LOG e RELATÓRIO
 with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", encoding="utf-8") as rel:
     log.write(f"[{data_execucao}] IA analisou dados de {len(dados_paises)} países a partir do JSON único.\n")
     rel.write(f"\n=== RELATÓRIO GERAL - EXECUÇÃO {data_execucao} ===\n")
@@ -41,11 +39,4 @@ with open(log_path, "a", encoding="utf-8") as log, open(relatorio_path, "a", enc
         rel.write("  • Ampliar infraestrutura nacional\n")
         rel.write("  • Reforçar laços diplomáticos regionais\n")
 
-# Git commit e push automáticos
-subprocess.run("git config user.name 'geoloop-bot'", shell=True)
-subprocess.run("git config user.email 'geo@loop.ai'", shell=True)
-subprocess.run("git add LOG.txt RELATORIO_GERAL.txt", shell=True)
-subprocess.run("git commit -m 'Atualização automática dos relatórios GEOLOOP'", shell=True)
-subprocess.run("git push", shell=True)
-
-print("Processo concluído com sucesso.")
+print("Relatórios gerados com sucesso.")
