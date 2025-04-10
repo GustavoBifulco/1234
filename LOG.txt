@@ -1,3 +1,1 @@
-LOG DO JOGO GEOLOOP
-
-Época 13: Guerra e Forças Armadas em execução
+[Simulação] LOG.txt gerado com dados de países.
