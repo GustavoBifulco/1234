@@ -55,6 +55,23 @@ def save_data(data, path="data/raw/dados_paises.json"):
         json.dump(data, f, ensure_ascii=False, indent=4)
     logger.info(f"Dados salvos em {path}")
 
+def validate_data(data):
+    """
+    Valida os dados dos países verificando se informações essenciais estão presentes.
+    Retorna uma lista com mensagens de erro, se houver.
+    """
+    erros = []
+    for pais, info in data.items():
+        if info.get("populacao", 0) < 0:
+            erros.append(f"{pais}: População negativa")
+        if not info.get("capital"):
+            erros.append(f"{pais}: Capital ausente")
+    if erros:
+        logger.error("Erros encontrados na validação: " + ", ".join(erros))
+    else:
+        logger.info("Validação concluída sem erros")
+    return erros
+
 if __name__ == "__main__":
     try:
         logger.info("Iniciando processo de coleta de dados...")
