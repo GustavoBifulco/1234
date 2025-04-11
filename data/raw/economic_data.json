@@ -2341,6 +2341,38 @@
             "value": "GDP (current US$)"
         },
         "country": {
+            "id": "HK",
+            "value": "Hong Kong SAR, China"
+        },
+        "countryiso3code": "HKG",
+        "date": "2020",
+        "value": 344943149590.058,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "HK",
+            "value": "Hong Kong SAR, China"
+        },
+        "countryiso3code": "HKG",
+        "date": "2019",
+        "value": 363074545072.389,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
             "id": "HU",
             "value": "Hungary"
         },
@@ -2853,6 +2885,38 @@
             "value": "GDP (current US$)"
         },
         "country": {
+            "id": "XK",
+            "value": "Kosovo"
+        },
+        "countryiso3code": "XKX",
+        "date": "2020",
+        "value": 7717145217.81247,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XK",
+            "value": "Kosovo"
+        },
+        "countryiso3code": "XKX",
+        "date": "2019",
+        "value": 7899737577.47286,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
             "id": "KW",
             "value": "Kuwait"
         },
@@ -3195,6 +3259,38 @@
         "countryiso3code": "LUX",
         "date": "2019",
         "value": 69890505323.5842,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "MO",
+            "value": "Macao SAR, China"
+        },
+        "countryiso3code": "MAC",
+        "date": "2020",
+        "value": 25343525935.8358,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "MO",
+            "value": "Macao SAR, China"
+        },
+        "countryiso3code": "MAC",
+        "date": "2019",
+        "value": 55082293844.1008,
         "unit": "",
         "obs_status": "",
         "decimal": 0
@@ -6011,6 +6107,38 @@
         "countryiso3code": "VNM",
         "date": "2019",
         "value": 334365270496.667,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "PS",
+            "value": "West Bank and Gaza"
+        },
+        "countryiso3code": "PSE",
+        "date": "2020",
+        "value": 15531700000,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "PS",
+            "value": "West Bank and Gaza"
+        },
+        "countryiso3code": "PSE",
+        "date": "2019",
+        "value": 17133500000,
         "unit": "",
         "obs_status": "",
         "decimal": 0
