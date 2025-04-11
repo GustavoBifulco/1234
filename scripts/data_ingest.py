@@ -5,90 +5,91 @@ import os
 import time
 import logging
 
+# Leitura do arquivo de configuração dos indicadores
+try:
+    with open("config/indicators.json", "r", encoding="utf-8") as config_file:
+        indicators_config = json.load(config_file)
+    print("Configuração dos indicadores carregada com sucesso!")
+except Exception as e:
+    print("Erro ao ler o arquivo de configuração:", e)
+    indicators_config = None
+
 # Configuração do logger para registrar as ações
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-def fetch_country_data():
+# Mapeamento de APIs para cada indicador
+api_map = {
+    "tipo_regime": "https://api.example.com/regime",
+    "pib_nominal": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+    "idh": "https://api.example.com/idh",
+    # Continue mapeando os outros indicadores...
+}
+
+def fetch_indicator_data(indicator_name):
     """
-    Busca dados dos países pela API do Rest Countries.
-    Tenta 3 vezes caso ocorra algum erro.
+    Busca dados de um indicador específico a partir da URL definida no mapeamento.
     """
-    url = "https://restcountries.com/v3.1/all"
+    api_url = api_map.get(indicator_name)
+    if not api_url:
+        raise Exception(f"API não encontrada para o indicador: {indicator_name}")
+    
+    logger.info(f"Buscando dados do indicador: {indicator_name}")
     for tentativa in range(3):
         try:
-            response = requests.get(url)
+            response = requests.get(api_url)
             if response.status_code == 200:
-                logger.info("Sucesso na requisição da API")
+                logger.info(f"Sucesso na requisição para {indicator_name}")
                 return response.json()
             else:
-                logger.warning(f"Tentativa {tentativa+1}: Código {response.status_code}")
+                logger.warning(f"Tentativa {tentativa+1} falhou para {indicator_name}. Código: {response.status_code}")
         except Exception as e:
             logger.error(f"Tentativa {tentativa+1} - Erro: {e}")
         time.sleep(3)
-    raise Exception("Falha ao buscar dados após 3 tentativas")
+    raise Exception(f"Falha ao buscar dados para {indicator_name} após 3 tentativas")
 
-def process_country_data(raw_data):
+def process_indicator_data(indicator_name, raw_data):
     """
-    Processa os dados brutos; extrai nome, capital, população e continente.
+    Processa os dados brutos de um indicador e retorna uma estrutura padronizada.
     """
+    logger.info(f"Processando dados para o indicador: {indicator_name}")
     processed_data = {}
-    for country in raw_data:
-        # Pega o nome do país (campo "common")
-        name = country.get("name", {}).get("common", "Desconhecido")
-        # Capital pode ser uma lista; pega o primeiro item se existir
-        capital = country.get("capital", ["Desconhecida"])
-        population = country.get("population", "N/A")
-        region = country.get("region", "N/A")
-        processed_data[name] = {
-            "capital": capital[0] if isinstance(capital, list) and capital else "Desconhecida",
-            "populacao": population,
-            "continente": region
+    for item in raw_data:
+        processed_data[item.get("country")] = {
+            "valor": item.get("value"),
+            "ano": item.get("date"),
+            "unidade": item.get("unit", "N/A")
         }
     return processed_data
 
-def save_data(data, path="data/raw/dados_paises.json"):
+def save_indicator_data(indicator_name, category_name, data):
     """
-    Salva os dados processados em um arquivo JSON.
-    Cria o diretório se necessário.
+    Salva os dados de um indicador específico em um arquivo JSON separado.
     """
+    path = f"data/raw/{category_name}/{indicator_name}.json"
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logger.info(f"Dados salvos em {path}")
-
-def validate_data(data):
-    """
-    Valida os dados dos países para garantir que as informações essenciais estão presentes.
-    Retorna uma lista com mensagens de erro (se houver).
-    """
-    erros = []
-    for pais, info in data.items():
-        if info.get("populacao", 0) < 0:
-            erros.append(f"{pais}: População negativa")
-        if not info.get("capital"):
-            erros.append(f"{pais}: Capital ausente")
-    if erros:
-        logger.error("Erros na validação: " + ", ".join(erros))
-    else:
-        logger.info("Validação concluída sem erros")
-    return erros
+    logger.info(f"Dados do indicador {indicator_name} salvos em {path}")
 
 if __name__ == "__main__":
     try:
-        logger.info("Iniciando coleta de dados...")
-        raw_data = fetch_country_data()
-        logger.info("Processando os dados...")
-        data = process_country_data(raw_data)
-        logger.info("Salvando os dados processados...")
-        save_data(data)
-        logger.info("Data Ingest concluído com sucesso!")
+        logger.info("Iniciando pipeline de ETL...")
+
+        for category, indicators in indicators_config.items():
+            logger.info(f"Categoria: {category}")
+            for indicator in indicators:
+                logger.info(f"Processando indicador: {indicator}")
+                
+                # Buscar os dados do indicador
+                raw_data = fetch_indicator_data(indicator)
+                
+                # Processar os dados
+                processed_data = process_indicator_data(indicator, raw_data)
+                
+                # Salvar os dados
+                save_indicator_data(indicator, category, processed_data)
+        
+        logger.info("Pipeline concluído com sucesso!")
     except Exception as e:
-        logger.error("Erro ao executar data ingest: " + str(e))
-
-from data_store import init_db, save_to_db
-
-conn = init_db()
-save_to_db(data, conn)
-logger.info("Dados também salvos no banco de dados (data/geoloop.db)")
-conn.close()
+        logger.error(f"Erro ao executar pipeline: {e}")
