@@ -8,50 +8,50 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - name: Checkout do repositório
-      uses: actions/checkout@v3
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
 
-    - name: Configurar Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Verificar versão Python e listar pacotes
-      run: |
-        python --version
-        pip list
+      - name: Verificar versão Python e listar pacotes
+        run: |
+          python --version
+          pip list
 
-    - name: Instalar dependências
-      run: |
-        pip install --no-cache-dir -r builder_ai/requirements.txt
+      - name: Instalar dependências
+        run: |
+          pip install --no-cache-dir -r builder_ai/requirements.txt
 
-    - name: Coletar Dados Atualizados
-      run: python scripts/data_ingest.py
+      - name: Coletar Dados Atualizados
+        run: python scripts/data_ingest.py
 
-    - name: Executar GEOLOOP AI
-      run: python simulation/geo_ai_executor.py
+      - name: Executar GEOLOOP AI
+        run: python simulation/geo_ai_executor.py
 
-    - name: Commit automático dos arquivos gerados
-      env:
-        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      run: |
-        git config --global user.name "geo-loop-bot"
-        git config --global user.email "geo@loop.ai"
-        git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/GustavoBifulco/1234.git
-        git add data/processed/LOG.txt data/processed/RELATORIO_GERAL.txt
-        git commit -m "Atualização automática dos relatórios"
-        git push origin HEAD
-        
-    - name: Re-trigger workflow
-      if: success()
-      env:
-        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      run: |
-        curl -X POST \
-        -H "Accept: application/vnd.github+json" \
-        -H "Authorization: Bearer ${PAT_TOKEN}" \
-        https://api.github.com/repos/${{ github.repository }}/actions/workflows/geo_loop_builder.yml/dispatches \
-        -d "{\"ref\": \"${{ github.ref }}\"}"
-        
-    - name: Coletar Dados Econômicos
-      run: python scripts/data_economicos.py
+      - name: Coletar Dados Econômicos
+        run: python scripts/data_economicos.py
+
+      - name: Commit automático dos arquivos gerados
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git config --global user.name "geo-loop-bot"
+          git config --global user.email "geo@loop.ai"
+          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/GustavoBifulco/1234.git
+          git add data/processed/LOG.txt data/processed/RELATORIO_GERAL.txt data/raw/economic_data.json
+          git commit -m "Atualização automática dos relatórios e dados econômicos"
+          git push origin HEAD
+
+      - name: Re-trigger workflow
+        if: success()
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${PAT_TOKEN}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/geo_loop_builder.yml/dispatches \
+            -d "{\"ref\": \"${{ github.ref }}\"}"
