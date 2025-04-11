@@ -5,12 +5,12 @@
             "value": "GDP (current US$)"
         },
         "country": {
-            "id": "BR",
-            "value": "Brazil"
+            "id": "ZH",
+            "value": "Africa Eastern and Southern"
         },
-        "countryiso3code": "BRA",
-        "date": "2020",
-        "value": 1476107231194.11,
+        "countryiso3code": "AFE",
+        "date": "2023",
+        "value": 1245472471675.95,
         "unit": "",
         "obs_status": "",
         "decimal": 0
@@ -21,12 +21,780 @@
             "value": "GDP (current US$)"
         },
         "country": {
-            "id": "BR",
-            "value": "Brazil"
+            "id": "ZH",
+            "value": "Africa Eastern and Southern"
         },
-        "countryiso3code": "BRA",
+        "countryiso3code": "AFE",
+        "date": "2022",
+        "value": 1191423176242.96,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZH",
+            "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2021",
+        "value": 1085745178850.97,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZH",
+            "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2020",
+        "value": 933391782089.618,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZH",
+            "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
         "date": "2019",
-        "value": 1873288205186.45,
+        "value": 1009721174054.91,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZI",
+            "value": "Africa Western and Central"
+        },
+        "countryiso3code": "AFW",
+        "date": "2023",
+        "value": 799105950273.831,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZI",
+            "value": "Africa Western and Central"
+        },
+        "countryiso3code": "AFW",
+        "date": "2022",
+        "value": 883973910898.854,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZI",
+            "value": "Africa Western and Central"
+        },
+        "countryiso3code": "AFW",
+        "date": "2021",
+        "value": 849312422223.205,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZI",
+            "value": "Africa Western and Central"
+        },
+        "countryiso3code": "AFW",
+        "date": "2020",
+        "value": 789801651563.294,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "ZI",
+            "value": "Africa Western and Central"
+        },
+        "countryiso3code": "AFW",
+        "date": "2019",
+        "value": 826483769985.129,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "1A",
+            "value": "Arab World"
+        },
+        "countryiso3code": "ARB",
+        "date": "2023",
+        "value": 3512421040998.19,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "1A",
+            "value": "Arab World"
+        },
+        "countryiso3code": "ARB",
+        "date": "2022",
+        "value": 3609805711776.49,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "1A",
+            "value": "Arab World"
+        },
+        "countryiso3code": "ARB",
+        "date": "2021",
+        "value": 2969239218342.03,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "1A",
+            "value": "Arab World"
+        },
+        "countryiso3code": "ARB",
+        "date": "2020",
+        "value": 2562783626987.73,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "1A",
+            "value": "Arab World"
+        },
+        "countryiso3code": "ARB",
+        "date": "2019",
+        "value": 2899029698316.64,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "S3",
+            "value": "Caribbean small states"
+        },
+        "countryiso3code": "CSS",
+        "date": "2023",
+        "value": 53296161046.3074,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "S3",
+            "value": "Caribbean small states"
+        },
+        "countryiso3code": "CSS",
+        "date": "2022",
+        "value": 48740490013.1088,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "S3",
+            "value": "Caribbean small states"
+        },
+        "countryiso3code": "CSS",
+        "date": "2021",
+        "value": 37091445807.6818,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "S3",
+            "value": "Caribbean small states"
+        },
+        "countryiso3code": "CSS",
+        "date": "2020",
+        "value": 31763210392.7783,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "S3",
+            "value": "Caribbean small states"
+        },
+        "countryiso3code": "CSS",
+        "date": "2019",
+        "value": 38046955433.6011,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "B8",
+            "value": "Central Europe and the Baltics"
+        },
+        "countryiso3code": "CEB",
+        "date": "2023",
+        "value": 2267760561102.27,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "B8",
+            "value": "Central Europe and the Baltics"
+        },
+        "countryiso3code": "CEB",
+        "date": "2022",
+        "value": 1955925827813.51,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "B8",
+            "value": "Central Europe and the Baltics"
+        },
+        "countryiso3code": "CEB",
+        "date": "2021",
+        "value": 1926804401016.02,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "B8",
+            "value": "Central Europe and the Baltics"
+        },
+        "countryiso3code": "CEB",
+        "date": "2020",
+        "value": 1678756939339.66,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "B8",
+            "value": "Central Europe and the Baltics"
+        },
+        "countryiso3code": "CEB",
+        "date": "2019",
+        "value": 1685123570509.08,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "V2",
+            "value": "Early-demographic dividend"
+        },
+        "countryiso3code": "EAR",
+        "date": "2023",
+        "value": 14945896099125.4,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "V2",
+            "value": "Early-demographic dividend"
+        },
+        "countryiso3code": "EAR",
+        "date": "2022",
+        "value": 14147623772391.9,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "V2",
+            "value": "Early-demographic dividend"
+        },
+        "countryiso3code": "EAR",
+        "date": "2021",
+        "value": 12811302058068.8,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "V2",
+            "value": "Early-demographic dividend"
+        },
+        "countryiso3code": "EAR",
+        "date": "2020",
+        "value": 11006437195990.5,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "V2",
+            "value": "Early-demographic dividend"
+        },
+        "countryiso3code": "EAR",
+        "date": "2019",
+        "value": 11834959859719.9,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "Z4",
+            "value": "East Asia & Pacific"
+        },
+        "countryiso3code": "EAS",
+        "date": "2023",
+        "value": 30780176881541.3,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "Z4",
+            "value": "East Asia & Pacific"
+        },
+        "countryiso3code": "EAS",
+        "date": "2022",
+        "value": 30673443320595.9,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "Z4",
+            "value": "East Asia & Pacific"
+        },
+        "countryiso3code": "EAS",
+        "date": "2021",
+        "value": 31155716955057.3,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "Z4",
+            "value": "East Asia & Pacific"
+        },
+        "countryiso3code": "EAS",
+        "date": "2020",
+        "value": 27163485040463.8,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "Z4",
+            "value": "East Asia & Pacific"
+        },
+        "countryiso3code": "EAS",
+        "date": "2019",
+        "value": 27040135154758.5,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "4E",
+            "value": "East Asia & Pacific (excluding high income)"
+        },
+        "countryiso3code": "EAP",
+        "date": "2023",
+        "value": 21162836277192.4,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "4E",
+            "value": "East Asia & Pacific (excluding high income)"
+        },
+        "countryiso3code": "EAP",
+        "date": "2022",
+        "value": 21124945071215.4,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "4E",
+            "value": "East Asia & Pacific (excluding high income)"
+        },
+        "countryiso3code": "EAP",
+        "date": "2021",
+        "value": 20849863760041.9,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "4E",
+            "value": "East Asia & Pacific (excluding high income)"
+        },
+        "countryiso3code": "EAP",
+        "date": "2020",
+        "value": 17496305186280.5,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "4E",
+            "value": "East Asia & Pacific (excluding high income)"
+        },
+        "countryiso3code": "EAP",
+        "date": "2019",
+        "value": 17222812070662.6,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "T4",
+            "value": "East Asia & Pacific (IDA & IBRD countries)"
+        },
+        "countryiso3code": "TEA",
+        "date": "2023",
+        "value": 21136712800814.7,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "T4",
+            "value": "East Asia & Pacific (IDA & IBRD countries)"
+        },
+        "countryiso3code": "TEA",
+        "date": "2022",
+        "value": 21098845523342.9,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "T4",
+            "value": "East Asia & Pacific (IDA & IBRD countries)"
+        },
+        "countryiso3code": "TEA",
+        "date": "2021",
+        "value": 20824108313726.3,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "T4",
+            "value": "East Asia & Pacific (IDA & IBRD countries)"
+        },
+        "countryiso3code": "TEA",
+        "date": "2020",
+        "value": 17474730731538.4,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "T4",
+            "value": "East Asia & Pacific (IDA & IBRD countries)"
+        },
+        "countryiso3code": "TEA",
+        "date": "2019",
+        "value": 17201604143343.6,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XC",
+            "value": "Euro area"
+        },
+        "countryiso3code": "EMU",
+        "date": "2023",
+        "value": 15780686672317.3,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XC",
+            "value": "Euro area"
+        },
+        "countryiso3code": "EMU",
+        "date": "2022",
+        "value": 14452048668851,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XC",
+            "value": "Euro area"
+        },
+        "countryiso3code": "EMU",
+        "date": "2021",
+        "value": 14917737268178.3,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XC",
+            "value": "Euro area"
+        },
+        "countryiso3code": "EMU",
+        "date": "2020",
+        "value": 13266857904728,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "XC",
+            "value": "Euro area"
+        },
+        "countryiso3code": "EMU",
+        "date": "2019",
+        "value": 13587020300289.4,
         "unit": "",
         "obs_status": "",
         "decimal": 0
