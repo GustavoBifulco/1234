@@ -1,0 +1,34 @@
+[
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "BR",
+            "value": "Brazil"
+        },
+        "countryiso3code": "BRA",
+        "date": "2020",
+        "value": 1476107231194.11,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    },
+    {
+        "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+        },
+        "country": {
+            "id": "BR",
+            "value": "Brazil"
+        },
+        "countryiso3code": "BRA",
+        "date": "2019",
+        "value": 1873288205186.45,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+    }
+]
