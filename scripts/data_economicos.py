@@ -10,9 +10,10 @@ logger = logging.getLogger(__name__)
 
 def fetch_economic_data(country_code="all", indicator="NY.GDP.MKTP.CD", start_year=2019, end_year=2020):
     """
-    Busca dados econômicos (PIB) usando a API do Banco Mundial para todos os países e, em seguida, 
-    filtra para manter somente os países membros oficiais da ONU.
+    Busca dados econômicos (PIB) usando a API do Banco Mundial para todos os países,
+    incluindo territórios especiais.
     """
+    # URL da API com parâmetros fixos
     url = (
         f"http://api.worldbank.org/v2/country/{country_code}/indicator/{indicator}"
         f"?format=json&date={start_year}:{end_year}&per_page=5000"
@@ -23,8 +24,9 @@ def fetch_economic_data(country_code="all", indicator="NY.GDP.MKTP.CD", start_ye
             data = response.json()
             logger.info("Dados brutos obtidos da API.")
             if len(data) > 1 and data[1]:
-                # Lista de códigos ISO3 dos 193 países membros oficiais da ONU
-                onu_iso3_codes = [
+                # Lista de códigos ISO3 que queremos filtrar
+                valid_iso3_codes = [
+                    # Países membros da ONU (193 oficiais)
                     "AFG", "ALB", "DZA", "AND", "AGO", "ATG", "ARG", "ARM", "AUS", "AUT",
                     "AZE", "BHS", "BHR", "BGD", "BRB", "BLR", "BEL", "BLZ", "BEN", "BTN",
                     "BOL", "BIH", "BWA", "BRA", "BRN", "BGR", "BFA", "BDI", "CPV", "KHM",
@@ -44,10 +46,12 @@ def fetch_economic_data(country_code="all", indicator="NY.GDP.MKTP.CD", start_ye
                     "ESP", "LKA", "SDN", "SUR", "SWE", "CHE", "SYR", "TJK", "TZA", "THA",
                     "TLS", "TGO", "TON", "TTO", "TUN", "TUR", "TKM", "TUV", "UGA", "UKR",
                     "ARE", "GBR", "USA", "URY", "UZB", "VUT", "VEN", "VNM", "YEM", "ZMB",
-                    "ZWE"
+                    "ZWE",
+                    # Territórios Especiais
+                    "VAT", "HKG", "MAC", "PSE", "TWN", "XKX", "MCO"
                 ]
-                # Filtra os registros: manter somente se o campo "countryiso3code" está na lista
-                filtered = [item for item in data[1] if item["countryiso3code"] in onu_iso3_codes]
+                # Filtrar registros para incluir somente os países/territórios válidos
+                filtered = [item for item in data[1] if item["countryiso3code"] in valid_iso3_codes]
                 logger.info(f"Total de registros após filtragem: {len(filtered)}")
                 return filtered
             else:
@@ -72,6 +76,6 @@ def save_economic_data(data, path="data/raw/economic_data.json"):
         logger.warning("Dados vazios. Nenhum arquivo foi criado.")
 
 if __name__ == "__main__":
-    logger.info("Iniciando coleta de dados econômicos para países oficiais da ONU...")
+    logger.info("Iniciando coleta de dados econômicos para países oficiais da ONU + territórios especiais...")
     economic_data = fetch_economic_data()
     save_economic_data(economic_data)
