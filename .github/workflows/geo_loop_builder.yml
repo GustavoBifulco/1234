@@ -52,5 +52,6 @@ jobs:
         -H "Authorization: Bearer ${PAT_TOKEN}" \
         https://api.github.com/repos/${{ github.repository }}/actions/workflows/geo_loop_builder.yml/dispatches \
         -d "{\"ref\": \"${{ github.ref }}\"}"
-- name: Coletar Dados Econômicos
-  run: python scripts/data_economicos.py
+        
+    - name: Coletar Dados Econômicos
+      run: python scripts/data_economicos.py
