@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-def fetch_economic_data(country_code="BRA", indicator="NY.GDP.MKTP.CD", start_year=2019, end_year=2020):
+def fetch_economic_data(country_code="all", indicator="NY.GDP.MKTP.CD", start_year=2019, end_year=2025):
     """
     Busca dados econômicos (PIB) usando a API do Banco Mundial.
     """
